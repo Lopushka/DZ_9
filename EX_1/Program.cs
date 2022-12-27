@@ -1,9 +1,9 @@
-﻿static void OutputCounter( int i)
+﻿static void OutputCounter(int i)
 {
     Console.Write(i + " ");
-    if (i<=1)
+    if (i <= 1)
         return;
-    
+
     i--;
     OutputCounter(i);
 }
